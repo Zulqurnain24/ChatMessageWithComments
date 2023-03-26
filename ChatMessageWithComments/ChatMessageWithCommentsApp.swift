@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import UIKit
 
 @main
 struct ChatMessageWithCommentsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView(postManager: PostManager())
         }
     }
 }

@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C6C6CD29D0DF0A0064A56B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6CC29D0DF0A0064A56B /* NetworkManager.swift */; };
+		27C6C6D029D0DF5C0064A56B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6CF29D0DF5C0064A56B /* Post.swift */; };
+		27C6C6D229D0DF6D0064A56B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6D129D0DF6D0064A56B /* Comment.swift */; };
+		27C6C6D429D0DF870064A56B /* PostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6D329D0DF870064A56B /* PostsResponse.swift */; };
+		27C6C6D729D0DFAB0064A56B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6D629D0DFAB0064A56B /* ViewModel.swift */; };
+		27C6C6DA29D0DFFA0064A56B /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6D929D0DFFA0064A56B /* PostManager.swift */; };
+		27C6C6DD29D0E0390064A56B /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6DC29D0E0390064A56B /* ErrorView.swift */; };
+		27C6C6DF29D0E0680064A56B /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6DE29D0E0680064A56B /* CommentsView.swift */; };
+		27C6C6E129D0E0980064A56B /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6E029D0E0980064A56B /* PostDetailView.swift */; };
+		27C6C6E329D0E0BD0064A56B /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6E229D0E0BD0064A56B /* PostRowView.swift */; };
+		27C6C6E629D0E0E00064A56B /* PostState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6E529D0E0E00064A56B /* PostState.swift */; };
+		27C6C6E829D0E0F60064A56B /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6C6E729D0E0F60064A56B /* PostListView.swift */; };
 		646089C029CE4D32004C03E5 /* ChatMessageWithCommentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646089BF29CE4D32004C03E5 /* ChatMessageWithCommentsApp.swift */; };
 		646089C229CE4D32004C03E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646089C129CE4D32004C03E5 /* ContentView.swift */; };
 		646089C429CE4D34004C03E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646089C329CE4D34004C03E5 /* Assets.xcassets */; };
 		646089C729CE4D34004C03E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646089C629CE4D34004C03E5 /* Preview Assets.xcassets */; };
+		646089CF29CE5C38004C03E5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 646089CE29CE5C38004C03E5 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C6C6CC29D0DF0A0064A56B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		27C6C6CF29D0DF5C0064A56B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		27C6C6D129D0DF6D0064A56B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		27C6C6D329D0DF870064A56B /* PostsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsResponse.swift; sourceTree = "<group>"; };
+		27C6C6D629D0DFAB0064A56B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		27C6C6D929D0DFFA0064A56B /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
+		27C6C6DC29D0E0390064A56B /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		27C6C6DE29D0E0680064A56B /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		27C6C6E029D0E0980064A56B /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		27C6C6E229D0E0BD0064A56B /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		27C6C6E529D0E0E00064A56B /* PostState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostState.swift; sourceTree = "<group>"; };
+		27C6C6E729D0E0F60064A56B /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		646089BC29CE4D32004C03E5 /* ChatMessageWithComments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMessageWithComments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646089BF29CE4D32004C03E5 /* ChatMessageWithCommentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageWithCommentsApp.swift; sourceTree = "<group>"; };
 		646089C129CE4D32004C03E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +51,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646089CF29CE5C38004C03E5 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C6C6CB29D0DEF80064A56B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				27C6C6CC29D0DF0A0064A56B /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		27C6C6CE29D0DF4C0064A56B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27C6C6CF29D0DF5C0064A56B /* Post.swift */,
+				27C6C6D129D0DF6D0064A56B /* Comment.swift */,
+				27C6C6D329D0DF870064A56B /* PostsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27C6C6D529D0DFA10064A56B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27C6C6D629D0DFAB0064A56B /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		27C6C6D829D0DFE80064A56B /* Subsystems */ = {
+			isa = PBXGroup;
+			children = (
+				27C6C6D929D0DFFA0064A56B /* PostManager.swift */,
+			);
+			path = Subsystems;
+			sourceTree = "<group>";
+		};
+		27C6C6DB29D0E02E0064A56B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				646089C129CE4D32004C03E5 /* ContentView.swift */,
+				27C6C6DC29D0E0390064A56B /* ErrorView.swift */,
+				27C6C6DE29D0E0680064A56B /* CommentsView.swift */,
+				27C6C6E029D0E0980064A56B /* PostDetailView.swift */,
+				27C6C6E229D0E0BD0064A56B /* PostRowView.swift */,
+				27C6C6E729D0E0F60064A56B /* PostListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27C6C6E429D0E0D60064A56B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				27C6C6E529D0E0E00064A56B /* PostState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 		646089B329CE4D32004C03E5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +132,13 @@
 		646089BE29CE4D32004C03E5 /* ChatMessageWithComments */ = {
 			isa = PBXGroup;
 			children = (
+				27C6C6E429D0E0D60064A56B /* State */,
+				27C6C6DB29D0E02E0064A56B /* Views */,
+				27C6C6D829D0DFE80064A56B /* Subsystems */,
+				27C6C6D529D0DFA10064A56B /* ViewModel */,
+				27C6C6CE29D0DF4C0064A56B /* Models */,
+				27C6C6CB29D0DEF80064A56B /* Networking */,
 				646089BF29CE4D32004C03E5 /* ChatMessageWithCommentsApp.swift */,
-				646089C129CE4D32004C03E5 /* ContentView.swift */,
 				646089C329CE4D34004C03E5 /* Assets.xcassets */,
 				646089C529CE4D34004C03E5 /* Preview Content */,
 			);
@@ -83,6 +169,9 @@
 			dependencies = (
 			);
 			name = ChatMessageWithComments;
+			packageProductDependencies = (
+				646089CE29CE5C38004C03E5 /* URLImage */,
+			);
 			productName = ChatMessageWithComments;
 			productReference = 646089BC29CE4D32004C03E5 /* ChatMessageWithComments.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 646089B329CE4D32004C03E5;
+			packageReferences = (
+				646089CD29CE5C38004C03E5 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 646089BD29CE4D32004C03E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C6C6E129D0E0980064A56B /* PostDetailView.swift in Sources */,
+				27C6C6D229D0DF6D0064A56B /* Comment.swift in Sources */,
+				27C6C6DA29D0DFFA0064A56B /* PostManager.swift in Sources */,
+				27C6C6DF29D0E0680064A56B /* CommentsView.swift in Sources */,
+				27C6C6CD29D0DF0A0064A56B /* NetworkManager.swift in Sources */,
 				646089C229CE4D32004C03E5 /* ContentView.swift in Sources */,
+				27C6C6E829D0E0F60064A56B /* PostListView.swift in Sources */,
 				646089C029CE4D32004C03E5 /* ChatMessageWithCommentsApp.swift in Sources */,
+				27C6C6D429D0DF870064A56B /* PostsResponse.swift in Sources */,
+				27C6C6D029D0DF5C0064A56B /* Post.swift in Sources */,
+				27C6C6E629D0E0E00064A56B /* PostState.swift in Sources */,
+				27C6C6E329D0E0BD0064A56B /* PostRowView.swift in Sources */,
+				27C6C6DD29D0E0390064A56B /* ErrorView.swift in Sources */,
+				27C6C6D729D0DFAB0064A56B /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +443,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		646089CD29CE5C38004C03E5 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		646089CE29CE5C38004C03E5 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 646089CD29CE5C38004C03E5 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 646089B429CE4D32004C03E5 /* Project object */;
 }
