@@ -29,7 +29,7 @@ struct PostListView: View {
             CommentsView(post: post)
           }
         }
-      }
+      }.frame(minHeight: 0, maxHeight: .infinity)
       .onAppear {
         if postManager.posts.isEmpty {
           postManager.fetchPosts()
