@@ -23,7 +23,6 @@
 		646089C229CE4D32004C03E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646089C129CE4D32004C03E5 /* ContentView.swift */; };
 		646089C429CE4D34004C03E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646089C329CE4D34004C03E5 /* Assets.xcassets */; };
 		646089C729CE4D34004C03E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646089C629CE4D34004C03E5 /* Preview Assets.xcassets */; };
-		646089CF29CE5C38004C03E5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 646089CE29CE5C38004C03E5 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646089CF29CE5C38004C03E5 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +168,6 @@
 			);
 			name = ChatMessageWithComments;
 			packageProductDependencies = (
-				646089CE29CE5C38004C03E5 /* URLImage */,
 			);
 			productName = ChatMessageWithComments;
 			productReference = 646089BC29CE4D32004C03E5 /* ChatMessageWithComments.app */;
@@ -201,7 +198,6 @@
 			);
 			mainGroup = 646089B329CE4D32004C03E5;
 			packageReferences = (
-				646089CD29CE5C38004C03E5 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 646089BD29CE4D32004C03E5 /* Products */;
 			projectDirPath = "";
@@ -443,25 +439,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		646089CD29CE5C38004C03E5 /* XCRemoteSwiftPackageReference "url-image" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		646089CE29CE5C38004C03E5 /* URLImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 646089CD29CE5C38004C03E5 /* XCRemoteSwiftPackageReference "url-image" */;
-			productName = URLImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 646089B429CE4D32004C03E5 /* Project object */;
 }

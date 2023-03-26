@@ -13,19 +13,6 @@ struct PostDetailView: View {
   
   var body: some View {
     VStack(alignment: .leading, spacing: 10) {
-      if let imageUrl = post.imageUrl,
-         let url = URL(string: imageUrl) as? URL {
-        URLImage(url) { image in
-          image
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(height: 200)
-            .clipped()
-        }
-        .frame(height: 200)
-        .background(Color.gray.opacity(0.3))
-      }
-      
       VStack(alignment: .leading, spacing: 5) {
         Text(post.title)
           .font(.title)

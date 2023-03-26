@@ -43,8 +43,8 @@ class NetworkManager {
       .decode(type: Data.self, decoder: JSONDecoder())
       .tryMap { data in
         do {
-          _ = try self.cache.setObject(data as NSData, forKey: url as NSURL)
-          let decodedData = try JSONDecoder().decode(T.self, from: data as! Data)
+          self.cache.setObject(data as NSData, forKey: url as NSURL)
+          let decodedData = try JSONDecoder().decode(T.self, from: data)
           return decodedData
         } catch {
           throw APIError.decodingFailed
